@@ -1,0 +1,47 @@
+.modal_background{
+  position: absolute;
+  float: right;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.718);
+  padding: 20px;
+}
+
+.modal_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  
+  z-index: 99;
+  width: 40%;
+  height: 30%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.botaoNovoJogo{
+  font-size: 2rem;
+  
+}
+.modal_message{
+  font-size: 200px;
+  color: #1B74E4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.botaoNovoJogo{
+  padding: 25px 50px;
+  border-radius: 5px;
+  border: 2px solid #fbc45e;
+  background-color: #f9a201;
+  color: black;
+ 
+}
+.invisivel2{
+  display: none;
+}

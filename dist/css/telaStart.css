@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto+Condensed:wght@700&display=swap');
+
+.comecaJogo{
+  display: none;
+  
+}
+
+.startGame_content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: center;
+}
+.titulo{
+  font-size: 250px;
+ margin-top: 150px;
+ color: #f9a201;
+}
+.face{
+  color: #1B74E4;
+  
+}
+.descrisao{
+  margin: 75px auto;
+ font-size: 45px;
+ color: #221131;
+}
+.js{
+  color: #f9a201;
+}
+.startGame_button{
+  padding: 15px;
+  font-size: 35px ;
+  border-radius: 5px;
+  border: 4px solid #6abcff;
+  color: white;
+  background-color: #1B74E4;
+  width: 250px;
+  height: 75px;
+  cursor: pointer;
+  margin: 75px auto;
+}
+
+.startGame_button:hover{
+  background-color: rgb(82, 104, 151);
+}
+
+.startGame_imagens{
+  display: flex;
+  align-items: center;
+  width: 1400px;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+.startGame_imagens img{
+  height: 250px;
+}

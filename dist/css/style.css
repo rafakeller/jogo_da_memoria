@@ -1,0 +1,75 @@
+.tabuleiro {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 900px;
+  width: 1200px;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 100px auto 0 auto;
+  --bg-primario: #fff;
+}
+
+.tabuleiro button {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.tabuleiro.modo-escuro {
+  --bg-primario: #1B74E4;
+}
+
+.casas {
+  background-color: var(--bg-primario);
+}
+
+
+#haha {
+  background-image: url(../img/haha.svg);
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+
+#angry {
+  background-image: url(../img/angry.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 225px;
+  background-position: center;
+}
+
+#like {
+  background-image: url(../img/like.svg);
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+
+#wow {
+  background-image: url(../img/wow.svg);
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+
+#sad {
+  background-image: url(../img/sad.svg);
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+
+#care {
+  background-image: url(../img/care.svg);
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+
+.invisivel {
+  transition: 3s;
+  background-image: none !important;
+}

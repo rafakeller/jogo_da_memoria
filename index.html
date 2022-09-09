@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jogo da Memória</title>
+  <link rel="stylesheet" href="dist/style.css">
+</head>
+
+<body>
+  <div class="startGame_bakcground">
+    <div class="startGame_content">
+      <h1 class="titulo"><span class="face">face</span>Memory</h1>
+      <h3 class="descrisao">Jogo da memória interativo feito em HTML+CSS e <span class="js">JavaScript</span> funcional. Encontre todos os Emoticons!</h3>
+      <button class="startGame_button">START</button>
+    </div>
+    <div class="startGame_imagens">
+      <img src="dist/img/haha.svg" alt="emotic haha">
+      <img src="dist/img/sad.svg" alt="emotic sad">
+      <img src="dist/img/angry.svg" alt="emotic angry">
+      <img src="dist/img/wow.svg" alt="emotic care">
+    </div>
+  </div>
+  <section class="jogo comecaJogo">
+    
+    <ul class="tabuleiro modo-escuro">
+
+    </ul>
+    
+  </section>
+
+  <div class="modal modal_background invisivel2">
+    <div class="modal_content">
+      <h6 class="modal_message"></h6>
+      <button class="botaoNovoJogo">Novo Jogo</button>
+    </div>
+  </div>
+
+
+</body>
+<script type="module" src="app/app.js"></script>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "server": "^1.0.37"
+  },
+  "scripts": {
+    "server": "lite-server"
+  },
+  "name": "jogo-da-memoria",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
